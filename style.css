@@ -16,7 +16,7 @@ body {
 
 .container {
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .header {
@@ -38,9 +38,12 @@ body {
 }
 
 .logo {
+    margin-top: 0;
+    margin-left: 5%;
     color: #dfdde0;
     font-size: 25px;
     font-weight: 800;
+    
 }
 
 .menu .navbar ul li {
@@ -55,3 +58,82 @@ body {
     display: block;
     font-weight: 600;
 }
+
+.menu .navbar ul li a:hover {
+    color: #fd00ad;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.bg {
+    position:absolute;
+    width: 900px;
+    z-index: -1;
+    left: -100px;
+    top: -300px;
+}
+
+.header-content {
+    display: flex;
+}
+
+.header-txt {
+    padding: 1%;
+    width: 45%;
+    margin-top: 10%;
+}
+
+.header-txt  h1 {
+    font-size: 40px;
+    line-height: 70px;
+    color: #fefffd;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.header-txt span {
+    font-weight: 800;
+}
+
+.header-txt p {
+    color: #d9d9d9;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.header-img {
+    width: 50%;
+}
+
+.lap {
+    margin-top: 20%;
+    margin-left: 15%;
+    width: 550px;
+}
+
+.btn-1 {
+    margin-left: 25%;
+    display: inline-block;
+    padding: 13px 35px;
+    color: #fefffb;
+    border-radius: 25px;
+    background: linear-gradient(
+        90deg,
+        rgba(131,45,153,1) 33%,
+        rgba(193, 58, 143, 1) 69%,
+        rgba(196, 37, 116,1) 100%
+    );
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+

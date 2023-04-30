@@ -22,7 +22,7 @@ body {
 .header {
     display: flex;
     position: relative;
-    min-height: 70vh;
+    min-height: 600px;
     align-items: center;
 }
 
@@ -55,8 +55,9 @@ body {
     font-size: 18px;
     padding: 20px;
     color: #dfdde0;
-    display: block;
+    display:block;
     font-weight: 600;
+    margin: 0.3px;
 }
 
 .menu .navbar ul li a:hover {
@@ -89,16 +90,17 @@ body {
 }
 
 .header-txt {
-    padding: 1%;
-    width: 45%;
-    margin-top: 10%;
+    padding: 0;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 10%;
 }
 
 .header-txt  h1 {
     font-size: 40px;
-    line-height: 70px;
+    line-height: 50px;
     color: #fefffd;
-    font-weight: 500;
+    font-weight: 300;
     margin-bottom: 30px;
 }
 
@@ -117,8 +119,8 @@ body {
 }
 
 .lap {
-    margin-top: 20%;
-    margin-left: 15%;
+    margin-top: 10%;
+    margin-left: 1%;
     width: 550px;
 }
 
@@ -135,5 +137,89 @@ body {
         rgba(196, 37, 116,1) 100%
     );
     box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.services {
+    padding: 35px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.info {
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 22px 45px;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #db4d8a;
+    background-color: #40223a;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.services h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color:#fefffd;
+    margin-bottom: 45px;
+}
+
+.services-content {
+    display: flex;
+    align-items: center;
+}
+
+.services-txt {
+    width: 50%;
+}
+
+.services-card {
+    display:flex;
+    align-items:flex-start;
+    background-color: #151c24;
+    padding: 15px 10px;
+    border-radius: 25px;
+    width: 390px;
+    margin: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.services-card img {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.card-txt {
+    text-align: left;
+}
+
+.card-txt h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #dfdde0;
+    margin-bottom: 10px;
+}
+
+.card-txt p {
+    font-size: 16px;
+    color: #8d8d8d;
+    margin-bottom: 10px;
+}
+
+.card-txt a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #dfdde0;
+    margin-bottom: 10px;
+}
+
+.services-img {
+    width: 50%;
+}
+
+.services-img img {
+    width: 50px;
 }
 
